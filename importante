@@ -1,0 +1,3 @@
+tsc --init = vai gerar o arquivo de configuração do typescript
+
+parac ompilar typescript automático utilizamos tsc -w
