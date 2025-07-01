@@ -54,6 +54,71 @@ nums.push(300)
 console.log(nums)
 
 
+// o uso de any posso receber diversos tipos de dados
+
+
+const arr1: any = [1, "test", true, [], {nome:"juan"}]
+
+console.log(arr1)
+
+
+
+
+
+
+
+
+
+// vamos brincar um pouco com o tipo de função 
+
+function falar(diz:string){
+
+    console.log(diz + "isso")
+
+}
+
+falar("estou apenas escrevendo")
+
+
+function greeting(name:string){
+    return `Olá ${name}`
+}
+
+console.log(greeting('juan'))
+console.log(greeting('Sthephani'))
+
+
+
+//função anonima
+
+setTimeout(function(){
+    const sallary: number = 1000;
+
+    console.log(sallary)
+},2000)
+
+//tipos de objeto
+
+function passCoordinates(coord: {x: number, y:number}){
+    console.log("X coordinates:" + coord.x)
+    console.log("x coordinates" + coord.y)
+}
+
+
+
+// para propriedades opcionais
+
+function showNumber(a:number, b:number, c?:number){
+    console.log("a" + a)
+    console.log("b" + b)
+    console.log("c" + c)
+
+}
+// para informar que vai ser opcional eu vou adicionar ? na frente da variável e antes de :tipagem
+
+
+showNumber(1,2,3)
+
 
 
 

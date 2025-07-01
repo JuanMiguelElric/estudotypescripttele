@@ -23,3 +23,16 @@ console.log(numbers[2]);
 var nums = [100, 20, 50, 70];
 nums.push(300);
 console.log(nums);
+// o uso de any posso receber diversos tipos de dados
+var arr1 = [1, "test", true, [], { nome: "juan" }];
+console.log(arr1);
+// vamos brincar um pouco com o tipo de função 
+function falar(diz) {
+    console.log(diz + "isso");
+}
+falar("estou apenas escrevendo");
+function greeting(name) {
+    return "Ol\u00E1 ".concat(name);
+}
+console.log(greeting('juan'));
+console.log(greeting('Sthephani'));
