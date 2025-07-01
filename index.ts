@@ -35,3 +35,25 @@ console.log(typeof a)
 
 let inf = "test"
 
+
+console.log("tipos primitivos");
+// 1- array
+
+let numbers: number[] = [1,2,3]
+
+numbers.push(5)
+
+console.log(numbers[2])
+
+// outro modo para declarar array em type script
+
+const nums: Array<number> = [100,20,50,70]
+
+nums.push(300)
+
+console.log(nums)
+
+
+
+
+
