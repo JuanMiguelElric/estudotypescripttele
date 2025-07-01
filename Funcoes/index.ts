@@ -29,3 +29,11 @@ console.log(FirsElement(["a","b","c","d"]))
 
 //constraints
 
+
+
+
+//rest operator
+
+function sumALL(...n:number[]){
+    return n.reduce((number, sum) => sum + number);
+}
