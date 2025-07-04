@@ -32,5 +32,15 @@ interface User{
 }
 
 function showUserDetails(user:User){
-
+//
 }
+
+
+//readonly
+
+interface Car{
+    brand:string,
+    readonly wheels:number
+}
+
+
